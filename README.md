@@ -1,17 +1,17 @@
-# NamelessBot
+# NamelessBot  
 
-Support bot for the NamelessMC Discord server. If you're looking for our Discord website integration bot, please visit the [Nameless-Link](https://github.com/NamelessMC/Nameless-Link) repository instead.
+Bot de suporte para o servidor Discord do NamelessMC. Se você está procurando nosso bot de integração do site com o Discord, visite o repositório [Nameless-Link](https://github.com/NamelessMC/Nameless-Link).  
 
-## How do I contribute to the bot?
+## Como posso contribuir para o bot?  
 
-There are a few ways of contributing to the bot for non developers and for developers. Here are two:
+Existem algumas formas de contribuir para o bot, tanto para desenvolvedores quanto para não desenvolvedores. Aqui estão duas opções:  
 
--   For non developers: You can head over to [NamelessMC/BotConfiguration](https://github.com/NamelessMC/BotConfiguration) and read the README.md for information on how to contribute there.
-    -   In that repository, you can add parameters to the `/support` command which is really helpful when it comes to providing support on common problems on the Discord.
--   For developers: You can clone this repository to your computer and help make the bot better!
-    -   Note to developers: Please do not add useless commands to the bot that don't even have a reason (or useless commands with a reason.)
-    -   Be sure to keep the formatting style used elsewhere for example:
-        Don't do the following:
+- **Para não desenvolvedores**: Você pode acessar o repositório [NamelessMC/BotConfiguration](https://github.com/NamelessMC/BotConfiguration) e ler o arquivo `README.md` para obter informações sobre como contribuir.  
+  - Nesse repositório, você pode adicionar parâmetros ao comando `/support`, o que é muito útil para fornecer suporte a problemas comuns no Discord.  
+
+- **Para desenvolvedores**: Você pode clonar este repositório para o seu computador e ajudar a melhorar o bot!  
+  - **Nota para desenvolvedores**: Não adicione comandos inúteis ao bot que não tenham propósito (ou comandos inúteis com um motivo fraco).  
+  - Certifique-se de manter o estilo de formatação usado no código. Por exemplo, evite o seguinte formato:  
 
 ```
 function thisReturnsTrue() : boolean
@@ -20,7 +20,7 @@ function thisReturnsTrue() : boolean
 }
 ```
 
-We want to see the following format:
+O formato correto é o seguinte:  
 
 ```
 function thisReturnsTrue() : boolean {
@@ -28,12 +28,12 @@ function thisReturnsTrue() : boolean {
 }
 ```
 
-## Setting up
+## Configuração  
 
-1. Clone this repository
-2. Run `npm install` to install all dependencies
-3. Once you finish coding, run `npx tsc` to build the bot
-4. Create a file called `.env` and put everything from the .example.env in it. Then fill in the values
-5. Run `npm run start` to run the compiled source
+1. Clone este repositório.  
+2. Execute `npm install` para instalar todas as dependências.  
+3. Depois de finalizar a codificação, execute `npx tsc` para compilar o bot.  
+4. Crie um arquivo chamado `.env` e copie tudo do `.example.env` para ele. Em seguida, preencha os valores necessários.  
+5. Execute `npm run start` para rodar o código compilado.  
 
-This bot uses Tesseract-ocr to automatically scan images for text. To install this, follow [this](https://github.com/tesseract-ocr/tessdoc/blob/main/Installation.md) tutorial.
+Este bot usa **Tesseract-OCR** para escanear automaticamente imagens em busca de texto. Para instalá-lo, siga este [tutorial](https://github.com/tesseract-ocr/tessdoc/blob/main/Installation.md).
